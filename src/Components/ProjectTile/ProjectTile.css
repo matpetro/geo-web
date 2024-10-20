@@ -1,0 +1,88 @@
+.card {
+    width: 330px;
+    background-color: #2d3748; /* Dark gray background */
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  .card-header {
+    margin-bottom: 3rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+  }
+  
+  .card-description {
+    color: #88909c; /* Light gray for description */
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+  
+  .card-content {
+    margin-top: 1rem;
+  }
+  
+  .progress-bar {
+    margin-bottom: 1rem;
+  }
+  
+  .progress-bg {
+    background-color: #4a5568; /* Medium gray background for progress */
+    height: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .progress-fill {
+    background-color: #38a169; /* Green progress bar */
+    height: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .progress-text {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #718096; /* Light gray text for progress */
+  }
+  
+  .card-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-blue {
+    background-color: #3182ce;
+  }
+  
+  .button-blue:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .button-green {
+    background-color: #38a169;
+  }
+  
+  .button-green:hover {
+    background-color: #2f855a;
+  }
+  
+  .button-gray {
+    background-color: #718096;
+  }
+  
+  .button-gray:hover {
+    background-color: #4a5568;
+  }

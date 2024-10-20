@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import LabelStudioUI from './Components/LabelStudio/LabelStudioUI';
+import Header from './Components/Header/Header';
+import React from 'react';
+import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
+import ProjectHub from './Components/ProjectHub/ProjectHub'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LabelHub from './Components/LabelHub/LabelHub';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/label" element={
+          <div style={{backgroundColor:"black", minHeight:"90vh"}}>
+            <LabelStudioUI />
+          </div>
+        } />
+        <Route path="/projects" element={<ProjectHub />} />
+        <Route path="/label-projects" element={<LabelHub />} />
+      </Routes>
+    </Router>
   );
 }
 

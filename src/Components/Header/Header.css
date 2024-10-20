@@ -1,0 +1,68 @@
+.header {
+    height : 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #0e0f0f;
+    font-family: Outfit, Roboto, monospace;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    width: 40px;
+    height: 40px;
+    background-color: #22c55e; /* Green */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    color: black;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 16px;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .register-btn {
+    background-color: #16a34a; /* Green */
+    color: white;
+    border: 1px solid #22c55e;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #15803d; /* Darker Green */
+  }
+  
+  .login-btn {
+    background-color: #2563eb; /* Blue */
+    color: white;
+    border: 1px solid #3b82f6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #1d4ed8; /* Darker Blue */
+  }

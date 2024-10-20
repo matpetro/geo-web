@@ -1,0 +1,159 @@
+.main-container {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
+  
+  .background-image {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  
+  .image-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+  }
+  
+  .login-box {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .tabs-list {
+    display: flex;
+    justify-content: center; /* Space between tabs */
+    margin-bottom: 24px; /* Spacing below the tabs */
+}
+
+.tabs-trigger {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px; /* Padding around tab buttons */
+    font-size: 1rem;
+    border-bottom: 2px solid transparent; /* Bottom border for inactive tabs */
+    transition: border-color 0.3s;
+}
+
+.tabs-trigger.active {
+    border-color: #2563eb; /* Blue border for active tab */
+    font-weight: bold; /* Make active tab bold */
+}
+
+.tabs-trigger:hover {
+    color: #60a5fa; /* Light blue color on hover */
+}
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    color: white;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .input {
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    border: 1px solid #374151;
+    padding: 8px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3b82f6; /* Blue border */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.125rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .blue-btn {
+    background-color: #2563eb;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .blue-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .green-btn {
+    background-color: #16a34a;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .green-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .forgot-password {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .blue-link {
+    color: #3b82f6;
+  }
+  
+  .blue-link:hover {
+    color: #60a5fa;
+  }
+  
+  .green-link {
+    color: #10b981;
+  }
+  
+  .green-link:hover {
+    color: #34d399;
+  }
+  
+  .register-section {
+    margin-top: 24px;
+    text-align: center;
+  }
+  
+  .register-text {
+    color: white;
+  }
+  
